@@ -1,0 +1,8 @@
+org 0X100
+
+move ax.5
+move bx,3
+add ax,bx
+
+move ax,0x4c00
+int 0x21
